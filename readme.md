@@ -12,9 +12,7 @@
    }
 </style>
 
-<body onload="startTime()">
-   <span style="text-align: left;" id="ora"></span>
-   <span style="text-align: right;" id="data"></span>
+<body>
    <h1 style="text-align: center;">Pagina web di Leoatomic</h1>
    <div style="text-align: center">
       <ul style="display: inline-block;text-align: left; list-style:none;">
