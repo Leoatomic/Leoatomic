@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<svg>
 
 <head>
    <title>Leoatomic</title>
@@ -37,4 +36,4 @@
    }
 </script>
 
-</html>
+</svg>
