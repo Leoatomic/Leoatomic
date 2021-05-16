@@ -3,173 +3,35 @@
 <head>
    <title>Leoatomic</title>
 </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-   @import "compass/css3";
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-html, body {
-  min-height: 100%;
-}
-
-body {
-  background-color: #00A99E;
-}
-
-.clock {
-  position: relative;
-  height: 200px;
-  width: 200px;
-  background: white;
-  box-sizing: border-box;
-  border-radius: 100%;
-  border: 10px solid #67D2C8;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  .top {
-    position: absolute;
-    width: 3px;
-    height: 8px;
-    background: #262626;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-  .right {
-    position: absolute;
-    width: 8px;
-    height: 3px;
-    background: #262626;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto 0;
-  }
-  .bottom {
-    position: absolute;
-    width: 3px;
-    height: 8px;
-    background: #262626;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0 auto;
-  }
-  .left {
-    position: absolute;
-    width: 8px;
-    height: 3px;
-    background: #262626;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto 0;
-  }
-  .center {
-    height: 6px;
-    width: 6px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: #262626;
-    border-radius: 100%;
-  }
-  .shadow {
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 60px;
-    top: 60px;
-    transform: rotate(135deg);
-    background: linear-gradient(transparent, rgba(#000, 0.1));
-  }
-  .hour {
-    width: 3px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    //animation: time 86400s infinite linear;
-    animation: time 60s infinite linear;
-    &:before {
-      position: absolute;
-      content: "";
-      background: #262626;
-      height: 60px;
-      width: 3px;
-      top: 30px;
-    }
-  }
-  .minute {
-    width: 1px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    //animation: time 3600s infinite linear;
-    animation: time 30s infinite linear;
-    &:before {
-      position: absolute;
-      content: "";
-      background: #262626;
-      height: 40px;
-      width: 1px;
-      top: 50px;
-    }
-  }
-  .second {
-    width: 2px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    //animation: time 60s infinite linear;
-    animation: time 15s infinite linear;
-    &:before {
-      position: absolute;
-      content: "";
-      background: #fd1111;
-      height: 45px;
-      width: 2px;
-      top: 45px;
-    }
-  }
-}
-
-@keyframes time {
-  to {
-    transform: rotate(360deg);
-  }
-}
+   body {
+      background-color: black;
+      color: white;
+      font-family: Arial;
+   }
 </style>
-<body>
-   <div class="clock">
-  <div class="top"></div>
-  <div class="right"></div>
-  <div class="bottom"></div>
-  <div class="left"></div>
-  <div class="center"></div>
-  <div class="shadow"></div>
-  <div class="hour"></div>
-  <div class="minute"></div>
-  <div class="second"></div>
+
+<body onload="startTime()">
+   <span style="text-align: left;" id="ora"></span>
+   <span style="text-align: right;" id="data"></span>
+   <h1 style="text-align: center;">Pagina web di Leoatomic</h1>
+   <div style="text-align: center">
+      <ul style="display: inline-block;text-align: left; list-style:none;">
+         <li>
+            <p><b>➣ Progetti: </b> <a href="https://github.com/Leoatomic" style="color: #4078c0; text-decoration: none;">GitHub </a> <a href="https://github.com/Leoatomic" class="fa fa-github" style="color: #4078c0; text-decoration: none"></a></p>
+         </li>
+         <li>
+            <p><b>➣ Seguimi: </b> <a href="https://www.instagram.com/Leoatomic" style="color: #C13584; text-decoration: none;">Instagram </a> <a href="https://www.instagram.com/Leoatomic" class="fa fa-instagram"
+                 style="color: #C13584; text-decoration: none"></a></p>
+         </li>
+         <li>
+            <p><b>➣ Contattami: </b> <a href="http://t.me/leoatomic" style="color: #0088cc; text-decoration: none;">Telegram </a><a href="https://t.me/Leoatomic" class="fa fa-telegram" style="color: #0088cc; text-decoration: none"></a></p>
+         </li>
+      </ul>
+   </div>
+
+
 
 </body>
-
-
-
 </html>
