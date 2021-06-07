@@ -6,10 +6,6 @@
 [![Leoatomic's GitHub stats](https://github-readme-stats.vercel.app/api?username=leoatomic&show_icons=true&theme=dark)
 ](https://github.com/leoatomic/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leoatomic&layout=compact&theme=dark)](https://github.com/leoatomic)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leoatomic&layout=default&theme=dark)](https://github.com/leoatomic)
 
-➣   **Progetti:** [GitHub](https://github.com/Leoatomic)[](https://github.com/Leoatomic)
-
-➣   **Seguimi:** [Instagram](https://www.instagram.com/Leoatomic)[](https://www.instagram.com/Leoatomic)
-
-➣   **Contattami:** [Telegram](http://t.me/leoatomic)[](https://t.me/Leoatomic)
+[![Atomic Userbot](https://github-readme-stats.vercel.app/api/pin/?username=leoatomic&repo=userbot&theme=dark)](https://github.com/leoatomic/userbot)
