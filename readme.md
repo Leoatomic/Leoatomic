@@ -6,6 +6,4 @@
 [![Leoatomic's GitHub stats](https://github-readme-stats.vercel.app/api?username=leoatomic&show_icons=true&theme=dark)
 ](https://github.com/leoatomic) 
 
-[![Atomic Userbot](https://github-readme-stats.vercel.app/api/pin/?username=leoatomic&repo=userbot&theme=dark)](https://github.com/leoatomic/userbot)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leoatomic&layout=default&theme=dark)](https://github.com/leoatomic)
