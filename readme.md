@@ -4,4 +4,4 @@
 <a href="https://github.com/Leoatomic">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=leoatomic&show_icons=true&title_color=ff0000&text_color=ffffff&bg_color=000000&locale=it&icon_color=ff7d7d&include_all_commits=true&count_private=true&border_color=000000&custom_title=Statistiche+di+Leoatomic&disable_animations=true"></a>
 <a href="https://github.com/Leoatomic">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leoatomic&show_icons=true&title_color=ff0000&text_color=ffffff&bg_color=000000&locale=it&icon_color=ff7d7d&include_all_commits=true&count_private=true&border_color=000000&custom_title=Lingue+di+Leoatomic&layout=compact"></a>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leoatomic&show_icons=true&title_color=ff0000&text_color=ffffff&bg_color=000000&locale=it&icon_color=ff7d7d&include_all_commits=true&count_private=true&border_color=000000&custom_title=Lingue+di+Leoatomic&layout=compact"></a>
